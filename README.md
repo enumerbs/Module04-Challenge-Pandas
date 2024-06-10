@@ -6,7 +6,7 @@ Pandas Challenge
 
 # Results
 
-Refer to the Jupyter Notebook, file: *PyCitySchools.ipynb*.
+Refer to the Jupyter Notebook, file: *PyCitySchools/PyCitySchools.ipynb*.
 
 # Implementation notes
 
