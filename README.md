@@ -27,6 +27,14 @@ School Summary:
 Top and Bottom performing schools:
 - Applied .sort_values() with parameter ascending=False/True for Descending (Top peforming first) and Ascending (Bottom performing first) sorts, respectively.
 
+Maths scores / Reading scores by Year level:
+- Applied .groupby() and .mean() to calculate 'mean scores per year level per school', for example:
+```
+    # Maths scores by Year; Group each by school name
+    year_nine_scores = year_nine.groupby("school_name")["maths_score"].mean()
+    ...
+```
+
 # References
 
 The following references were used in the development of the solution for this Challenge.
