@@ -30,6 +30,9 @@ Top and Bottom performing schools:
 Maths scores / Reading scores by Year level:
 - Applied .groupby() and .mean() to calculate 'mean scores per year level per school', for example:
 ```
+    # Create data series of scores by year levels using conditionals
+    year_nine = school_data_complete[(school_data_complete["year"] == 9)]
+    ...
     # Maths scores by Year; Group each by school name
     year_nine_scores = year_nine.groupby("school_name")["maths_score"].mean()
     ...
