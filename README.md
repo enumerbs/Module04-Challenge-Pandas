@@ -24,6 +24,9 @@ School Summary:
 - Applied .groupby() and .count() on those filtered DataFrames, to create a new DataFrame containing subtotals of the students passing maths, reading, and both maths and reading, together with the total number of students, per school.
 - Used that DataFrame to calculate the Percentage Pass Rates for Maths, Reading, and Overall.
 
+Top and Bottom performing schools:
+- Applied .sort_values() with parameter ascending=False/True for Descending (Top peforming first) and Ascending (Bottom performing first) sorts, respectively.
+
 # References
 
 The following references were used in the development of the solution for this Challenge.
