@@ -38,6 +38,9 @@ Maths scores / Reading scores by Year level:
     ...
 ```
 
+Scores by School Spending:
+- Conversion from string-based 'currency' values (e.g. "$3.45") to float via a combination of 'str.replace' and '.astype(float)':
+
 # References
 
 The following references were used in the development of the solution for this Challenge.
@@ -48,3 +51,19 @@ The following references were used in the development of the solution for this C
 ## Pandas - using .groupby()
 - https://stackoverflow.com/questions/39922986/how-do-i-pandas-group-by-to-get-sum
 - https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html#aggregation
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html (re: set parameter 'observed = False' to avoid warning messages regarding deprecated / default value will change to True in a future version of Pandas)
+
+## Pandas - using .cut()
+- https://pandas.pydata.org/docs/reference/api/pandas.cut.html
+
+## Pandas - convert string-based 'currency' values to float
+- https://stackoverflow.com/questions/32464280/how-to-convert-currency-column-with-and-to-numbers
+
+## Pandas - rounding values to specified number of decimal places
+- https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.round.html
+
+## Python - options for breaking code across multiple lines
+- https://note.nkmk.me/en/python-long-string/
+
+## Markdown - showing code blocks
+- https://www.markdownguide.org/extended-syntax/#fenced-code-blocks
