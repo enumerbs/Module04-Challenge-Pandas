@@ -38,7 +38,7 @@ Maths scores / Reading scores by Year level:
     ...
 ```
 
-Scores by School Spending:
+Scores by School Spending / School Size / School Type:
 - Conversion from string-based 'currency' values (e.g. "$3.45") to float via a combination of 'str.replace' and '.astype(float)':
 
 # References
